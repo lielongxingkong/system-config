@@ -3,11 +3,11 @@
 #
 # Node-OS: precise
 # Node-OS: trusty
-node 'review.pek1.qingcloud.com' {
+node 'review.incloud-ci.com' {
   class { 'openstack_project::server':
     iptables_public_tcp_ports => [80, 443, 29418],
     sysadmins                 => hiera('sysadmins', []),
-    puppetmaster_server       => 'puppetmaster.pek1.qingcloud.com',
+    puppetmaster_server       => 'puppetmaster.incloud-ci.com',
   }
 
   class { '::gerrit::mysql':
