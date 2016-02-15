@@ -3,10 +3,6 @@
 # A template host with no running services
 #
 class openstack_project::template (
-  $iptables_public_tcp_ports = [],
-  $iptables_public_udp_ports = [],
-  $iptables_rules4           = [],
-  $iptables_rules6           = [],
   $pin_puppet                = '3.',
   $install_users             = true,
   $install_resolv_conf       = true,
@@ -53,13 +49,6 @@ class openstack_project::template (
     }
   } else {
     $all_udp = $iptables_public_udp_ports
-  }
-
-  class { 'iptables':
-    public_tcp_ports => $iptables_public_tcp_ports,
-    public_udp_ports => $all_udp,
-    rules4           => $iptables_rules4,
-    rules6           => $iptables_rules6,
   }
 
   class { 'timezone':
