@@ -13,7 +13,7 @@ class openstack_project::puppetboard(
 
   class { '::puppetboard':
     unresponsive => '1.5',
-    enable_query => 'False', # This being a python false
+    enable_query => false, # This being a python false
   }
 
   $docroot = "${basedir}/puppetboard"
