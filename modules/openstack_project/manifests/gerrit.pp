@@ -77,6 +77,7 @@ class openstack_project::gerrit (
   $index_threads = 1,
 ) {
 
+  # disabled when swift_password set to ''
   class { 'jeepyb::openstackwatch':
     projects       => [
       'openstack/ceilometer',
