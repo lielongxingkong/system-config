@@ -6,7 +6,7 @@ class openstack_project::server (
   $certname                  = $::fqdn,
   $pin_puppet                = '3.',
   $ca_server                 = undef,
-  $enable_unbound            = true,
+  $enable_unbound            = false,
   $afs                       = false,
   $afs_cache_size            = 500000,
   $puppetmaster_server       = 'puppetmaster.openstack.org',
