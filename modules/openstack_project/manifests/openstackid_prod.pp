@@ -44,11 +44,6 @@ class openstack_project::openstackid_prod (
   $app_key = '',
 ) {
 
-  class { 'openstack_project::server':
-    iptables_public_tcp_ports => [80, 443],
-    sysadmins                 => $sysadmins,
-  }
-
   class { 'openstackid':
     site_admin_password      => $site_admin_password,
     id_mysql_host            => $id_mysql_host,
