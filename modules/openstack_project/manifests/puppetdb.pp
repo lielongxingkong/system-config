@@ -29,6 +29,7 @@ class openstack_project::puppetdb (
   class { 'openstack_project::server':
     iptables_public_tcp_ports => $open_ports,
     sysadmins                 => $sysadmins,
+    enable_unbound            => false,
   }
 
   class { '::puppetdb::database::postgresql':
