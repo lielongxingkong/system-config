@@ -34,12 +34,8 @@
 # 12:09 <@spearce> so. you get 5 milliseconds before aborting
 # thus, set it to 5000minutes until the bug is fixed.
 class openstack_project::review (
-  # Created by running jeepyb ?
-  $github_oauth_token = '',
-  # Create a dedicated user e.g. openstack-project-creator, put
-  # details here.
-  $github_project_username = '',
-  $github_project_password = '',
+  $gitlab_root_passwd = '',
+  $gitlab_gerrit_passwd = '',
   # Create arbitrary values and put here, puppet will use during
   # provisioning.
   $mysql_host = '',
@@ -104,7 +100,7 @@ class openstack_project::review (
     ssh_replication_rsa_pubkey_contents => $ssh_replication_rsa_pubkey_contents,
     ssh_welcome_rsa_key_contents        => $ssh_welcome_rsa_key_contents,
     ssh_welcome_rsa_pubkey_contents     => $ssh_welcome_rsa_pubkey_contents,
-    email                               => 'review@openstack.org',
+    email                               => 'review@incloud-ci.com',
       # 1 + 100 + 9 + 2 + 2 + 25 => 139(rounded up)
     database_poollimit                  => '150',
     container_heaplimit                 => '12g',
@@ -126,10 +122,13 @@ class openstack_project::review (
     notify_impact_file                  => $::project_config::gerrit_notify_impact_file,
     projects_file                       => $::project_config::jeepyb_project_file,
     projects_config                     => $projects_config,
-    github_username                     => 'openstack-gerrit',
-    github_oauth_token                  => $github_oauth_token,
-    github_project_username             => $github_project_username,
-    github_project_password             => $github_project_password,
+    gitlab_address			=> 'gitlab.incloud-ci.com',
+    gitlab_protocol 			=> 'http',
+    gitlab_root_passwd			=> $gitlab_gerrit_passwd,
+    gitlab_gerrit_name			=> 'InCloud-CI Gerrit',
+    gitlab_gerrit_email			=> 'review@incloud-ci.com',
+    gitlab_gerrit_passwd		=> $gitlab_gerrit_passwd,
+    gitlab_gerrit_ssh_key_title		=> 'review.incloud-ci.com',
     mysql_host                          => $mysql_host,
     mysql_password                      => $mysql_password,
     email_private_key                   => $email_private_key,
@@ -139,9 +138,8 @@ class openstack_project::review (
     replication_force_update            => true,
     replication                         => [
       {
-        name                 => 'github',
-        url                  => 'git@github.com:',
-        authGroup            => 'Anonymous Users',
+        name                 => 'gitlab',
+        url                  => 'git@gitlab.incloud-ci.com:gerrit/',
         replicationDelay     => '1',
         replicatePermissions => false,
         mirror               => true,

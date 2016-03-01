@@ -48,10 +48,15 @@ class openstack_project::gerrit (
   $notify_impact_file = 'UNDEF',
   $projects_file = 'UNDEF',
   $projects_config = 'UNDEF',
-  $github_username = '',
-  $github_oauth_token = '',
-  $github_project_username = '',
-  $github_project_password = '',
+  $gitlab_address = '',
+  $gitlab_protocol = 'http',
+  $gitlab_root_username = 'root',
+  $gitlab_root_passwd = '',
+  $gitlab_gerrit_name = '',
+  $gitlab_gerrit_username = 'gerrit',
+  $gitlab_gerrit_email = '',
+  $gitlab_gerrit_passwd = '',
+  $gitlab_gerrit_ssh_key_title = '',
   $trivial_rebase_role_id = '',
   $email_private_key = '',
   $token_private_key = '',
@@ -224,12 +229,16 @@ class openstack_project::gerrit (
 
   if ($testmode == false) {
     include gerrit::cron
-    class { 'github':
-      username         => $github_username,
-      project_username => $github_project_username,
-      project_password => $github_project_password,
-      oauth_token      => $github_oauth_token,
-      require          => Class['::gerrit']
+    class { '::gerrit::gitlab':
+      gitlab_address => $gitlab_address,
+      gitlab_protocol => $gitlab_protocol,
+      root_username => $gitlab_root_username,
+      root_passwd => $gitlab_root_passwd,
+      gerrit_name => $gitlab_gerrit_name,
+      gerrit_username => $gitlab_gerrit_username,
+      gerrit_email => $gitlab_gerrit_email,
+      gerrit_passwd => $gitlab_gerrit_passwd,
+      gerrit_pub_key_title => $gitlab_gerrit_ssh_key_title,
     }
   }
 
