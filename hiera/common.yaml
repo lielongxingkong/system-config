@@ -29,98 +29,106 @@ puppetmaster_root_rsa_key: |
                          K2x7wE8soVargbokXCiIpXqzuaouO1TTHd2eWOZR+F9ddoG7LgCVwrDCx2719eYR
                          fisaWkwu5mQQNzX5LgzRSVG+DD/BcD35qapDXk0kJHKGoyQDZg7R9sE=
                          -----END RSA PRIVATE KEY-----
+gerrit_ssh_rsa_key_contents: |
+                         -----BEGIN RSA PRIVATE KEY-----
+                         MIIEogIBAAKCAQEAvZLvsFpYq1Y66CtZurufwQWaZmXxMNeR81Dd4oAr6ew/9B/e
+                         k2PTXKoCTQbprpSWQ8pmfnDu/zEQ6+QTJo7v5VuU/B0jzZ3pbZMgSX4YjkApxxkt
+                         I7SQX4or0h7FvZbsukwzr2dridxz/MUDt5j5dmzH+h+PBmOONeKYT5tVKXD4gWoc
+                         6zjkX8Wtlw8l7sSOzgHvSCWtV4FxXAskvZ8SaT3pNo5HpJsUVDB73umGK7SA8uJ+
+                         0/tgENdNRQCey6ntbQG+VfaXTGBpewbd2q2M84GB9a/DDzJhMmZgvK7xkD9F4n4G
+                         qksQ0bY0g3abe+sxUJPOQv/WB6oGyNCrsYiMjwIDAQABAoIBABhAc+lbpXxFy8Nn
+                         yFLbLdTDorz2zaQx77nw3nHbc8K5NnVEnnS8kI2KMkEoYTy0RYTmn7YNPIXpAQEs
+                         bEbCgm4VCTo3gB0N1o7uA3NjbkDEdJPD5MJslwuh4Xk/9owKgr5SgUovMNKyISR1
+                         D8StDTzZLbwRzXpDwi2ij1mfxYVHdh5jV6G8jbv7qVC4WQUOjcv6wIjyYaIqQz76
+                         7SAqorucDyQLuwJYOx1aRpL5PI/L775iiygLy7jKcgbnDhXBvHJR5LK6ik8ylIWn
+                         bEkerMHTp283jWVmC++phLKCy5ch1P0FjRyHulocjNybKMJfWGhK9ZIyE+opoQFp
+                         D+/K5AECgYEA42GlKwHcpEPpeGJ/wBfDyUvj/DQ/JDeWDbzftzUsjenOL4IIgsm1
+                         SsguFRtupTFY2jziC6du4Ap/rGJDzPFERKtYMMElMwCEIoiBX2NvEPAjlyaoyNHQ
+                         dgtubL7zbkiTAjPj2dRtuSW6ZGfCWk5k6upeP4YgfDKMGpiPuQfYSpcCgYEA1W8d
+                         MEp0NJyM5qjIv8/um6jwnu8rli08UrqVj+Gda+Eu6JpMJiKdjz0wNIbn1u5fktqS
+                         uTOqL8M5AhDfWr6OJDxWxhyoca2qVN0mKuhAv2rtRJ0549wOVfhjyhjcyssr5PA8
+                         EG+cJ7zfQ51p1MuRLrc0pUxFwn81CC/yQBJlZMkCgYAhCIGHUvjsAFW9wImQraMq
+                         7lSLwkdeCplJG6RgqF/1qf7jVf/IiGdHGvfe5yJW62leIzQvvz5TXBMaRxhUgMSL
+                         OV1Rj+3IkA2iOrSY2Ag9rLVu8xXYPusLCzQapk8VOYPp8QHsFnluSXXfulc46WSt
+                         4CibD/BOOsWx43IVznb0twKBgDpIJUhSjHjxZuh1npwCQ73t3AcKeHSB1b8hhEXN
+                         7hbPXufVeoXPXgcHRmqRjC182kxXs0kveoGgZajSwqsc7eOnNmrS2IxyR9j0qr98
+                         vHGI2VGrPWujY6bGNTmyoFggMtRJZZ13XMTdJnpoOcYJ8JM5I/8fXM1Hv0uFDDnC
+                         zD1BAoGAdff9uLTjQuZVwHjdOyRCFVCUAhY+zdWx672Lgajr41PfG8CyYWfyr/MC
+                         ehFkZSi1IM6RerMvgPYHS1fEBRosq3ZUHF35vLplTXd1iX6WYYUhUKY73fz5MVB0
+                         yd90LBdjQDkl9q+Vr4OjxBQPoFnTrEbWSrFJkE4n+gxAoaABOwk=
+                         -----END RSA PRIVATE KEY-----
+gerrit_ssh_rsa_pubkey_contents: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9ku+wWlirVjroK1m6u5/BBZpmZfEw15HzUN3igCvp7D/0H96TY9NcqgJNBumulJZDymZ+cO7/MRDr5BMmju/lW5T8HSPNneltkyBJfhiOQCnHGS0jtJBfiivSHsW9luy6TDOvZ2uJ3HP8xQO3mPl2bMf6H48GY4414phPm1UpcPiBahzrOORfxa2XDyXuxI7OAe9IJa1XgXFcCyS9nxJpPek2jkekmxRUMHve6YYrtIDy4n7T+2AQ101FAJ7Lqe1tAb5V9pdMYGl7Bt3arYzzgYH1r8MPMmEyZmC8rvGQP0XifgaqSxDRtjSDdpt76zFQk85C/9YHqgbI0KuxiIyP review@incloud-ci.com
 
-uni_ssh_rsa_key_contents: |
-                             -----BEGIN RSA PRIVATE KEY-----
-                             MIIEogIBAAKCAQEAvZLvsFpYq1Y66CtZurufwQWaZmXxMNeR81Dd4oAr6ew/9B/e
-                             k2PTXKoCTQbprpSWQ8pmfnDu/zEQ6+QTJo7v5VuU/B0jzZ3pbZMgSX4YjkApxxkt
-                             I7SQX4or0h7FvZbsukwzr2dridxz/MUDt5j5dmzH+h+PBmOONeKYT5tVKXD4gWoc
-                             6zjkX8Wtlw8l7sSOzgHvSCWtV4FxXAskvZ8SaT3pNo5HpJsUVDB73umGK7SA8uJ+
-                             0/tgENdNRQCey6ntbQG+VfaXTGBpewbd2q2M84GB9a/DDzJhMmZgvK7xkD9F4n4G
-                             qksQ0bY0g3abe+sxUJPOQv/WB6oGyNCrsYiMjwIDAQABAoIBABhAc+lbpXxFy8Nn
-                             yFLbLdTDorz2zaQx77nw3nHbc8K5NnVEnnS8kI2KMkEoYTy0RYTmn7YNPIXpAQEs
-                             bEbCgm4VCTo3gB0N1o7uA3NjbkDEdJPD5MJslwuh4Xk/9owKgr5SgUovMNKyISR1
-                             D8StDTzZLbwRzXpDwi2ij1mfxYVHdh5jV6G8jbv7qVC4WQUOjcv6wIjyYaIqQz76
-                             7SAqorucDyQLuwJYOx1aRpL5PI/L775iiygLy7jKcgbnDhXBvHJR5LK6ik8ylIWn
-                             bEkerMHTp283jWVmC++phLKCy5ch1P0FjRyHulocjNybKMJfWGhK9ZIyE+opoQFp
-                             D+/K5AECgYEA42GlKwHcpEPpeGJ/wBfDyUvj/DQ/JDeWDbzftzUsjenOL4IIgsm1
-                             SsguFRtupTFY2jziC6du4Ap/rGJDzPFERKtYMMElMwCEIoiBX2NvEPAjlyaoyNHQ
-                             dgtubL7zbkiTAjPj2dRtuSW6ZGfCWk5k6upeP4YgfDKMGpiPuQfYSpcCgYEA1W8d
-                             MEp0NJyM5qjIv8/um6jwnu8rli08UrqVj+Gda+Eu6JpMJiKdjz0wNIbn1u5fktqS
-                             uTOqL8M5AhDfWr6OJDxWxhyoca2qVN0mKuhAv2rtRJ0549wOVfhjyhjcyssr5PA8
-                             EG+cJ7zfQ51p1MuRLrc0pUxFwn81CC/yQBJlZMkCgYAhCIGHUvjsAFW9wImQraMq
-                             7lSLwkdeCplJG6RgqF/1qf7jVf/IiGdHGvfe5yJW62leIzQvvz5TXBMaRxhUgMSL
-                             OV1Rj+3IkA2iOrSY2Ag9rLVu8xXYPusLCzQapk8VOYPp8QHsFnluSXXfulc46WSt
-                             4CibD/BOOsWx43IVznb0twKBgDpIJUhSjHjxZuh1npwCQ73t3AcKeHSB1b8hhEXN
-                             7hbPXufVeoXPXgcHRmqRjC182kxXs0kveoGgZajSwqsc7eOnNmrS2IxyR9j0qr98
-                             vHGI2VGrPWujY6bGNTmyoFggMtRJZZ13XMTdJnpoOcYJ8JM5I/8fXM1Hv0uFDDnC
-                             zD1BAoGAdff9uLTjQuZVwHjdOyRCFVCUAhY+zdWx672Lgajr41PfG8CyYWfyr/MC
-                             ehFkZSi1IM6RerMvgPYHS1fEBRosq3ZUHF35vLplTXd1iX6WYYUhUKY73fz5MVB0
-                             yd90LBdjQDkl9q+Vr4OjxBQPoFnTrEbWSrFJkE4n+gxAoaABOwk=
-                             -----END RSA PRIVATE KEY-----
+zuul_ssh_rsa_key_contents: |
+                         -----BEGIN RSA PRIVATE KEY-----
+                         MIIEowIBAAKCAQEA51D6QWTrfrNkXjwmQF+YlboNm4t+nnX5BAfHU0f2SIA/rWyk
+                         oABZjfp0eBbiH7V/YtFJH6eOWltxu7T35Pxl1PdYL5aqqRPyT0WXlrTisIqkd4xU
+                         cmAhstW9fM2JXcXh5ZLvFjmsNmrOwSptxfYYOeWZwtLa/i59UoAiXUnsfPEvmuQi
+                         bKqjFK/7dw36vuaCbRIxo5vYaXZmPUyA2fWBb2i5XUS4MuAD1IWDeYQt0l/lfFdX
+                         Y94bY5weJwMPjhoq7R/pRzeNEKrHgHpURygWRM+djBLRBA7foXdMWMSVOxdUm+Gi
+                         7ZOTft5nvrvOCG0VbQ3VuxYQYGcoYJiTKkmBvwIDAQABAoIBAGs8ISgbzwinxYni
+                         PKFvL9+JpzFK0+JGMrDpokA7hjNKMTsGuLLsNpgZWdEqWp30mB+JgmrIVLgS2ID6
+                         fkmLsPGv0RQOtwM3Gggh7QqSxNyvCVvalHOJmVW8vOGUr2/ngrfZDDmzduCrVzo5
+                         nzY8xjJg/I1TDu7zQmnyuPuif53TmCvFGPHAmbFfSYCyTlpGMkls4UB1axJpkN68
+                         dArouGpu0+p34h7QL3heaanHDRllFUu+AkpIrkH+3BiNA+93blacrdUXmgdAiwN6
+                         Nzz6qtfAX8GI/EjrMWh/ja6UkDfnqTDR93nvt9cMDVcSZDM0O4uL/6fyrlTy5rVo
+                         /HRzLSECgYEA/xS9gKRgUXbhgwg6YoR0G87cMe1QFirT3PWOYqCsOHbyMbWtVIp3
+                         +VaYJHk8NmBWrXtPX4JRtrFhYFn95yExNT348VmkyQiNpQwAdTiitxwzzrAY8aSQ
+                         DXXfCpmOL2nnA5X7c8ERRl73VgyNY1zuPMINMYbpipEmtJ02JT5IxykCgYEA6CZR
+                         u8t6rA/RyG4NjpWCyw9DAMMy8InstVQ8WbeNcMhFvXxzpBx20WAiPF5Tmp7TyrYY
+                         hEpGo1RnjOJcxI5Q8E7Z0N3n16yNNy7Q6AMP9vm7lBApJOfQ+N2CzXdnWKbXKOTo
+                         7bzwKXE7TzaoZfAYwAg3GONZNkmnqEE9CSazpqcCgYBL0MdOcAzsya/XeV+ZHpNA
+                         HKjX8hgmro4QE7BBYk4t7jSoT7537TwhkPphhOM/qjy5DXiXA63z5h7yO207AGOW
+                         1peibKmM0wz+rGWKcc3zLN+9JBwV3nqudYVYqjFXqFtwdmipjA3tY5aSLeLsUJfC
+                         2U6AlP/fHqtpbXzFbxDEmQKBgQCRSUIHrH22ZyQcMrvrSyiS2pdNR9x+a2MnzHME
+                         lvo+5ie3QcbBo0q9GFP0wffCobnceH/5ct6oYy93HUd/f62p5z8sF2R8NrIeIf99
+                         5ES+hWZecIq/XREMXtz4p8yWz7uCDVi1SHRpC0NZ/NQBD/T9YWbR/Z6cehYiF8oS
+                         CxWNqwKBgE9lUIkZ8VowT7fdF4zP4PX2JhFOUDgmicX3QuB651iwzmUxd4/7o5Jt
+                         eiGQXRym9TnQ5NKFE00yKX35LL4oVeL3oGFSztiB6HeJH/rOaQ3l+RyqGEfvWLye
+                         yneDLvsI2AZpFrTZJgtmcnzZi/Bq16Pw+du2okbCPVZZco8cdeRO
+                         -----END RSA PRIVATE KEY-----
+zuul_ssh_rsa_pubkey_contents: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDnUPpBZOt+s2RePCZAX5iVug2bi36edfkEB8dTR/ZIgD+tbKSgAFmN+nR4FuIftX9i0Ukfp45aW3G7tPfk/GXU91gvlqqpE/JPRZeWtOKwiqR3jFRyYCGy1b18zYldxeHlku8WOaw2as7BKm3F9hg55ZnC0tr+Ln1SgCJdSex88S+a5CJsqqMUr/t3Dfq+5oJtEjGjm9hpdmY9TIDZ9YFvaLldRLgy4APUhYN5hC3SX+V8V1dj3htjnB4nAw+OGirtH+lHN40QqseAelRHKBZEz52MEtEEDt+hd0xYxJU7F1Sb4aLtk5N+3me+u84IbRVtDdW7FhBgZyhgmJMqSYG/ zuul@incloud-ci.com
 
-uni_ssh_rsa_pubkey_contents: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9ku+wWlirVjroK1m6u5/BBZpmZfEw15HzUN3igCvp7D/0H96TY9NcqgJNBumulJZDymZ+cO7/MRDr5BMmju/lW5T8HSPNneltkyBJfhiOQCnHGS0jtJBfiivSHsW9luy6TDOvZ2uJ3HP8xQO3mPl2bMf6H48GY4414phPm1UpcPiBahzrOORfxa2XDyXuxI7OAe9IJa1XgXFcCyS9nxJpPek2jkekmxRUMHve6YYrtIDy4n7T+2AQ101FAJ7Lqe1tAb5V9pdMYGl7Bt3arYzzgYH1r8MPMmEyZmC8rvGQP0XifgaqSxDRtjSDdpt76zFQk85C/9YHqgbI0KuxiIyP review@incloud-ci.com
+pm_ssh_rsa_key_contents: |
+                         -----BEGIN RSA PRIVATE KEY-----
+                         MIIEpgIBAAKCAQEAu2UoUsoLqfX/YwX04zBdFFOOKplYIropf82LzzS3lU18JW1f
+                         xuC1PhW71AbtD6CVccfoHHuRw9q7D5QaC38dCMJXrDNzpU4+50Tg8tOWyfoxiwIf
+                         E9IuT12G9yVbsvBfhyb6i4x+hfSy4LtDOMybhvJNpAl1H8i3poFC/ETKWGWGQ6CD
+                         0uE/ye1Hl80VCZQeE/XknYJpZi7SRdgFPWo/hTtNMA1fur0r5ad/gkA8JS3/crGN
+                         FBw5zMnxnp4iMbb/8FWqgfrFiP58B2AtNi2SJIG9UdaEFixpxa2CC3sJGyPMWPkh
+                         uigGR7m0jEKuRpI6RPFPN5D+Oiyz62JizZLg9QIDAQABAoIBAQCBkeYZqD38XG0j
+                         CMFUPOJ+5W8NIU4BZPrAtVyP/oFZKGRIdKGen0xyCxD9/3P2NDBgpbplx0L4SsrA
+                         cMS5YkCvB8Ea/dBeYgW4XrWy8H34VZff562ZROBkW+SwChKnXPCQQHFH//KTqKfu
+                         H0zRfxeibPMmEqv7OAtTg1jPmLjX+Nrx0gXRGfTZDGrhOewhWY4M1i7JgnfRtZwn
+                         DoajwgRwvoYtE2zTFzcgyd0s4RUeioo330MyDabbf4n3w5vYkunrRnv1InWEVat5
+                         pJZyOU8ez3b/2O4etGjncJ6hTgnrh6G+Ru33XkbOPAbzjpPlulRov6Czlo3GuQWD
+                         XERgJxmBAoGBAOu/OXQMeIgIV6Ys+gwLyInOhewAbjimvd8nhda0y9pL7RmC9zx0
+                         NKSCPmNHZDTRGo6MQ6e9b7MHiaBidp9Ngm6B0XysXv+OzZBYLQ/h7w6ZZDLOcAz1
+                         Cj0F97f14iBuV8wX57UpiGzMcERpvU7BsZjLA09KiZGOzNiCfHDNwO8xAoGBAMt+
+                         iHDTmKAlpAaZ7NKrkxxJHpksV6BS5UL/hxAAmTJf1FOKl9PaNc7gbX6VPPwcVxhB
+                         9B8GBHA2Gk+LSH6+Yi3aZXNEvhK/xNYKHE0v0VvIIzyfTxxSap1PSdPhhyyHDLbP
+                         xRNnQbRTMYudv/YQeXtkjUivJiCWI6TJ3e+UNkUFAoGBAJ/kyPD+7FlHXztkUgwN
+                         iex92LNi718ZKLrMMaiYY5Mh4CRngYzNPE8/z1TCvSJdmOeKFvEUOUhyGlRftBkE
+                         Fy0ge5dVyfEHSEFYrOeS0/NQ8nbLMZB4OoN9IrDw4nggnwfcRtnG27L/Tj34gd+C
+                         3BPHzezfn0LMWf+XMRPJWcxhAoGBAJHojU5Q+fvCYYT2M0+vBFFgwFbV65KiPY63
+                         h5FazH3JJoYsNscJjFFkrD36JfsjGvPivnbMKryGnoDwfq+aNO1pzhpDbQImjK1o
+                         HHjf036610EtfVzyX02iP250JCcyQlSGT2mlPQBeMoVIPA7kKyblp0Q5id4NqUsM
+                         D10saWk9AoGBAJFRsZ/YWD2q4tgc4/heGjA8E1AIsudYnoc4byDmX8z5/Yzy+zTK
+                         A0UZBPNtj8/Ov+9gkUfK+7zWANkT1hRJ+DTYNO0HgrYxzOYcKkJDqPGb4VXYuGC7
+                         iwbjhMUysIgoGra8cfvCgYC2hxF83VkenZDLMzxOePaAJyRNQ++X096m
+                         -----END RSA PRIVATE KEY-----
+pm_ssh_rsa_pubkey_contents: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7ZShSygup9f9jBfTjMF0UU44qmVgiuil/zYvPNLeVTXwlbV/G4LU+FbvUBu0PoJVxx+gce5HD2rsPlBoLfx0IwlesM3OlTj7nRODy05bJ+jGLAh8T0i5PXYb3JVuy8F+HJvqLjH6F9LLgu0M4zJuG8k2kCXUfyLemgUL8RMpYZYZDoIPS4T/J7UeXzRUJlB4T9eSdgmlmLtJF2AU9aj+FO00wDV+6vSvlp3+CQDwlLf9ysY0UHDnMyfGeniIxtv/wVaqB+sWI/nwHYC02LZIkgb1R1oQWLGnFrYILewkbI8xY+SG6KAZHubSMQq5GkjpE8U83kP46LLPrYmLNkuD1 pm@incloud-ci.com
 
-openstackid_ssl_cert_file_contents: |
-                         -----BEGIN CERTIFICATE-----
-                         MIICxjCCAa4CCQCJlVdxxY22iTANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDExpv
-                         cGVuc3RhY2tpZC5pbmNsb3VkLWNpLmNvbTAeFw0xNjAyMTUxNDIzMjdaFw0yNjAy
-                         MTIxNDIzMjdaMCUxIzAhBgNVBAMTGm9wZW5zdGFja2lkLmluY2xvdWQtY2kuY29t
-                         MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmj3JizxS+u+Fu1wnx2LW
-                         wG23yx9vWrpoWa5rVcnWmrMzSZ3+h+03D7EAzW4hSZcPab50BV1/LpMWOP2uxx7Y
-                         QWZF90YRIpEGNVXliZBhbOL5s3X5zFDfcgkDUNypgudp5/mhhzfqFaDy9k2CtH7q
-                         uj47HS9zm8F/WRpu3/A6T1xW7wGkZBZJQXahdEmzUv8dFuS9OHG4bLK28TN3Af9y
-                         UfWIw8W2Xy2tNrM/+NeEahWEqwtBeH/rrPGc0ir7y3CXUHSHzbnTPMcB/M5xtgRG
-                         +Af5gshUf6jhl7k/8Isj1P6Bd1UzAdy6hsVmpbDt4PtNE9Ky+2r2uXJd201giR9I
-                         SQIDAQABMA0GCSqGSIb3DQEBBQUAA4IBAQA3vuBou/uKUzKTIc6YUolzxY15+cur
-                         jRix7e+8/QN/xS3ds+dZtiv0z4/n1i5Dbu1DSlPyLmdymhYzBrftoW67ggE3JcGx
-                         RZ8nmYBEuKlRfBaN9Bmzc4SUKpwQVEf8592BosY/OqxOiENM3BWGafmBzGnPwMuu
-                         Sfd4bw0QGWS9YIzHFc93LnBPPXZK3+7mKL/VAI4MvWlVJHEiI0QDf8/aMJA/x/3F
-                         +tyTjzHGKy+5i3m+XqmVMKbwWmlWsovG9ba9rnRw5t3P3sw87Gr04W3k/DpUO592
-                         hkrRFPlmw1V++QtSpiiDPVmfBm6TIfILsfCL27fqHWYPvJqD5ZU83TrA
-                         -----END CERTIFICATE-----
-openstackid_ssl_key_file_contents: |
-                         -----BEGIN PRIVATE KEY-----
-                         MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCaPcmLPFL674W7
-                         XCfHYtbAbbfLH29aumhZrmtVydaaszNJnf6H7TcPsQDNbiFJlw9pvnQFXX8ukxY4
-                         /a7HHthBZkX3RhEikQY1VeWJkGFs4vmzdfnMUN9yCQNQ3KmC52nn+aGHN+oVoPL2
-                         TYK0fuq6PjsdL3ObwX9ZGm7f8DpPXFbvAaRkFklBdqF0SbNS/x0W5L04cbhssrbx
-                         M3cB/3JR9YjDxbZfLa02sz/414RqFYSrC0F4f+us8ZzSKvvLcJdQdIfNudM8xwH8
-                         znG2BEb4B/mCyFR/qOGXuT/wiyPU/oF3VTMB3LqGxWalsO3g+00T0rL7ava5cl3b
-                         TWCJH0hJAgMBAAECggEAfGfxs7hIRdYDy4cdHpj+Fd9pKxCDxG4t1If2Uw+lZMm9
-                         SFeDASe4DZP6zbdSagTJjcTr15f+CRbiCb2zxy99xeIz9KozD+phU4ugxEAMFMNO
-                         HA3AGafxUg0q+4G/x7HXnh+exW24BRH4ZelGz0a/FNE05OltGegMS1Yir8UXgwH7
-                         EUrnARPchtTuLNEw8jPGAjj5XsR/7M8+FyDUl2N0PcZh6XIlkfHeB5t/s4WUFoEW
-                         CABBVFNjc6bEGw9XtXZr0/xyaSjXLqRz/3VAsw49WRPI1t/c2XwtF4s+UtmYtIta
-                         ANXmuW/KoPRjrFyKNoMENw/srFeJyknI30edTYI/wQKBgQDKaqN3Q8QZ5+0YI/9u
-                         jPKIQ7lYOciMOiKyt5s33BTVhNuMgV2Hzx0/0fArOFAHiswQYj3XKWeECS2Y3uj6
-                         nILPj886Z/H+K1youia2sxHZAKWE4bscG8YaQ+naZFKelSHPPEBl1d6rk5rtbinP
-                         ceURYnwA/oF5QpvXlXGgKbfELQKBgQDDEmmknMWTZIiQGs6qzvni7D3glsKYTk6k
-                         PrbRIkY5YOWHGUyovbUH27LA/hs9RhaKzwT3rrYwtKC9hkEybEACAvlOiGHqOYRf
-                         K1NJm1TqGt5Ua4sA5wdhC4MypcXSTPUNwyF5CvN7I3IMuwEIh2SFc3HWLGRCUBig
-                         JgwezizaDQKBgQCJhCFCKXvUzcg6Glqy1HcBNGF7Guawvd5M5IhDTvWoifZOYqUU
-                         WxVYAlzUQBG+zgENMHEq+ConfcTIkshdWm9UbDMxTuUM9JCi4LTkcouxjcrlmCXy
-                         Vrwjo/gAMyAeNNsfW6O0i7QXhNRAchNdp9ckFHCCjGWR6DrQH+tuEGmUkQKBgQCD
-                         yQWr2umzqMCFskaaqJezEWzANLmkUYrZdTDm2qPckbSe752VhgwuEeOSdFkMrTP/
-                         dNpjRhn5j53kTDXxjaY0dbPdtU+JAHCIJunumUzll19KYxkWc/3NNwzcg5fAepM3
-                         R/NuJdLWBt0+8ntBOs7TRWnLilP1ZM0uLGYVza4JZQKBgQCS9qY/qYEXVDkjbxDw
-                         UFpPF66hT22yi7uzRG58/j2gGOHyNvWbAGOWWh8F5xHHnvyuaAxspf76Tkm6/FhA
-                         6Rf+Czh/CjWtL1faaDD7E92Aak+zoVgKzi+9VqCXkVNVRz3cQAQMUPD6VU6zwhjI
-                         +SfBO1rT8OTqViaDpYskEpgo6A==
-                         -----END PRIVATE KEY-----
-
-#vhost_name:
+singlenode_vhost_name: singlenode.incloud-ci.com
 project_config_repo: git://github.com/lielongxingkong/project-config
 #serveradmin:
 #jenkins_username: jenkins
 #jenkins_password:
-
 gerrit_server: review.incloud-ci.com
 #gerrit_ssh_host_key:
-gerrit_user: admin
-
-git_email: zzl_1164@126.com
-git_name: Zhao Zhenlong
+gerrit_user: zuul
+git_email: zuul@incloud-ci.com
+git_name: InCloud-CI Zuul
 log_server: logs.incloud-ci.com
 #smtp_host:
 #smtp_default_from:
@@ -139,4 +147,3 @@ mysql_nodepool_password: secret_mysql_nodepool_password
 #nodepool_git_source_repo: https://git.openstack.org/openstack-infra/nodepool
 gitlab_root_passwd: 88888888
 gitlab_gerrit_passwd: 88888888
-
