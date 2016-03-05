@@ -139,7 +139,7 @@ class openstack_project::review (
     replication                         => [
       {
         name                 => 'gitlab',
-        url                  => 'git@gitlab.incloud-ci.com:gerrit/',
+        url                  => 'git@gitlab.incloud-ci.com:',
         replicationDelay     => '1',
         replicatePermissions => false,
         mirror               => true,
