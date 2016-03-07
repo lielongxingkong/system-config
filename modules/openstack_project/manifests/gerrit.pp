@@ -28,6 +28,7 @@ class openstack_project::gerrit (
   $ssh_replication_rsa_key_contents='', # If left empty will not create file.
   $ssh_replication_rsa_pubkey_contents='', # If left empty will not create file.
   $ssh_zuul_rsa_pubkey_contents='', # If left empty will not create file.
+  $ssh_jenkins_rsa_pubkey_contents='', # If left empty will not create file.
   $email = '',
   $database_poollimit = '',
   $container_heaplimit = '',
@@ -133,6 +134,7 @@ class openstack_project::gerrit (
     ssh_replication_rsa_key_contents    => $ssh_replication_rsa_key_contents,
     ssh_replication_rsa_pubkey_contents => $ssh_replication_rsa_pubkey_contents,
     ssh_zuul_rsa_pubkey_contents        => $ssh_zuul_rsa_pubkey_contents,
+    ssh_jenkins_rsa_pubkey_contents     => $ssh_jenkins_rsa_pubkey_contents,
     email                               => $email,
     gerrit_auth_type			=> 'DEVELOPMENT_BECOME_ANY_ACCOUNT',
     openidssourl                        => 'https://login.launchpad.net/+openid',

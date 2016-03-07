@@ -63,8 +63,9 @@ class openstack_project::review (
   # welcome-message's user ssh key.
   $ssh_welcome_rsa_key_contents='',
   $ssh_welcome_rsa_pubkey_contents='',
-  # zuul ssh key for gerrit user init
+  # zuul and jenkins ssh pubkey for gerrit user init
   $ssh_zuul_rsa_pubkey_contents='',
+  $ssh_jenkins_rsa_pubkey_contents='',
   # To be renamed - they're now just launchpad creds, not lp_sync
   $lp_sync_consumer_key='',
   $lp_sync_token='',
@@ -103,6 +104,7 @@ class openstack_project::review (
     ssh_welcome_rsa_key_contents        => $ssh_welcome_rsa_key_contents,
     ssh_welcome_rsa_pubkey_contents     => $ssh_welcome_rsa_pubkey_contents,
     ssh_zuul_rsa_pubkey_contents        => $ssh_zuul_rsa_pubkey_contents,
+    ssh_jenkins_rsa_pubkey_contents     => $ssh_jenkins_rsa_pubkey_contents,
     email                               => 'review@incloud-ci.com',
       # 1 + 100 + 9 + 2 + 2 + 25 => 139(rounded up)
     database_poollimit                  => '150',

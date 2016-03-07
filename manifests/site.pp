@@ -29,6 +29,7 @@ node 'review.incloud-ci.com' {
     ssh_replication_rsa_key_contents    => hiera('gerrit_ssh_rsa_key_contents'),
     ssh_replication_rsa_pubkey_contents => hiera('gerrit_ssh_rsa_pubkey_contents'),
     ssh_zuul_rsa_pubkey_contents        => hiera('zuul_ssh_rsa_pubkey_contents'),
+    ssh_jenkins_rsa_pubkey_contents     => hiera('jenkins_ssh_rsa_pubkey_contents'),
 
     gitlab_root_passwd      => hiera('gitlab_root_passwd'),
     gitlab_gerrit_passwd    => hiera('gitlab_gerrit_passwd'),
@@ -63,8 +64,8 @@ node 'singlenode.incloud-ci.com' {
     serveradmin                 => hiera('serveradmin', "webmaster@incloud-ci.com"),
     jenkins_username            => hiera('jenkins_username', 'jenkins'),
     jenkins_password            => hiera('jenkins_password', 'XXX'),
-    jenkins_ssh_private_key     => hiera('zuul_ssh_rsa_key_contents'),
-    jenkins_ssh_public_key      => hiera('zuul_ssh_rsa_pubkey_contents'),
+    jenkins_ssh_private_key     => hiera('jenkins_ssh_rsa_key_contents'),
+    jenkins_ssh_public_key      => hiera('jenkins_ssh_rsa_pubkey_contents'),
     gerrit_server               => hiera('gerrit_server', 'review.incloud-ci.com'),
     gerrit_user                 => hiera('gerrit_user'),
     gerrit_user_ssh_public_key  => hiera('zuul_ssh_rsa_pubkey_contents'),

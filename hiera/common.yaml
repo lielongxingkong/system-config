@@ -119,6 +119,36 @@ pm_ssh_rsa_key_contents: |
                          -----END RSA PRIVATE KEY-----
 pm_ssh_rsa_pubkey_contents: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7ZShSygup9f9jBfTjMF0UU44qmVgiuil/zYvPNLeVTXwlbV/G4LU+FbvUBu0PoJVxx+gce5HD2rsPlBoLfx0IwlesM3OlTj7nRODy05bJ+jGLAh8T0i5PXYb3JVuy8F+HJvqLjH6F9LLgu0M4zJuG8k2kCXUfyLemgUL8RMpYZYZDoIPS4T/J7UeXzRUJlB4T9eSdgmlmLtJF2AU9aj+FO00wDV+6vSvlp3+CQDwlLf9ysY0UHDnMyfGeniIxtv/wVaqB+sWI/nwHYC02LZIkgb1R1oQWLGnFrYILewkbI8xY+SG6KAZHubSMQq5GkjpE8U83kP46LLPrYmLNkuD1 pm@incloud-ci.com
 
+jenkins_ssh_rsa_key_contents: |
+                         -----BEGIN RSA PRIVATE KEY-----
+                         MIIEpAIBAAKCAQEA6cO01jSfAdAKFBTavFelWe/L+Xvdr5kMhIGic2RPd1MmVTjm
+                         34a9e1+ykBq0P2hsfnHhU5t7BcxyxN//pbdcnmQzta90BfUuekQoWXQD/kli0aWs
+                         FKAttCdFWKQUw2y75CDqnyYuTAkAyt8T7PrZkijbcCvhWDzR+VSOJUJjmvfbcl4J
+                         L3px1ZxeQj4yAMmguC1X2oQDE3j3tOgbuC/UgBw99tuqjSBH0rBaJMaL4eaHd27H
+                         CdkvApuu6QatSxaO5dnAw+HIgTUsrXPLFWuuA16ApCVuZi0ccqvSfHRqQhEMbjTc
+                         heAwtq2YYKb86DUlElHr9P+nXhZaS/FqV/n4VwIDAQABAoIBAQCUmsMVATKr9lLR
+                         3UgIPzdwaw6iNOoCvSrF+ZsJ/BTAaG2P87JhGsjN61IaZb98J6gA4eg6PDcCwqub
+                         GELuWBha4Jw2vajmOK0pMLbt1uDLAF//onA4VHN5eRWOehBxA2iWZ45/SchYsch9
+                         Lz79gaJaVfrZ3itM6q0Y8XXDneawFfWDZLMp0EfASA4/hoQwOLxaCLVZElyNQJQH
+                         pIK4QHBh5+qSDCmFaNECExGlzhlC/B0mOafg1tWSxzjkJosDQHyvAAyUh9RXkoJX
+                         luOQ+6jQhNo6IgYQK4SJY2+Ub4qGxnGpFQWWbbTQJR6IVyiZcch3+/To7T0xJt41
+                         U0cK6uzhAoGBAP2FGslkeTsHNaCgZghYD7LCMKduThSDlZiI4OnVmXzW0TUSx0Ze
+                         EbKmHRHXvYdpD0mfZONst95s7+11UfvgYyDlUeDK5RjYOndym+xWl51+cCeLUgrK
+                         hYzCzR5Hp73B2N0j2Y3EYI3cetImJvwY4qb6IeSl/IJS2pJM9w1Ai1D5AoGBAOwN
+                         ILNJD2+BiE/kAXTwdCWdX8g9qQlXzgePRhb0U3WxxVw5tSByiS3Qo1WE18RzNCxK
+                         5wkqxeqJOqu9kYamqfFUWiLr68IieqpaaDbJjKocXN/FK6AoFnsYwosDVxVKWWNQ
+                         ddYXAAclmBVy+9/SSz4LLs5wtXZ7sXfeOt5J3jfPAoGAWTU+IMG3GvtFdpkabjM2
+                         iutkHXZmCTfoKv13TzD3SoN4qFlMP8mYJqnnLsEgkwZ396sb4B8AcEcbAg63Y48o
+                         somfDx+2D9D+ecudbENoJGY6Zt/SZbOv3MErVk1WjCIrAl28DvOcGi8MFOiR7UGA
+                         d8sqo/94ZA9tk+97O3GL1FkCgYB+QQNFgYVVAbZT7MLuthGZcNQjOP+pdKJJHtPB
+                         QUtGfx/tlRwQz9IZhCdofVYex/OW4TUzjQIw0Ndltk4Y9Bmfb5uKZB9ERcbQSOzG
+                         qQSok+UE9uO/lNF5Y6PiUJYKWCr5WLa+HK0yJWRzzH11mHgQJlERr+0PA1fHokBg
+                         VqgZtwKBgQDkGKWK3PQBLh2a2Thu+wPscMQ+rDD6Emr2Yc5qVVMlQ3R5MHk7NtpV
+                         6YusowmM1jwtOvMmS6qLRPVDkKM9CMiXR5rNkQHIT983oaXfTlKliZxrjE1+/d6L
+                         0T4fYOkrJIAv4ZN+iZVBODY8/ZYShSlgKm/TvkjZVuyJ7DGcj0C99w==
+                         -----END RSA PRIVATE KEY-----
+jenkins_ssh_rsa_pubkey_contents: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDpw7TWNJ8B0AoUFNq8V6VZ78v5e92vmQyEgaJzZE93UyZVOObfhr17X7KQGrQ/aGx+ceFTm3sFzHLE3/+lt1yeZDO1r3QF9S56RChZdAP+SWLRpawUoC20J0VYpBTDbLvkIOqfJi5MCQDK3xPs+tmSKNtwK+FYPNH5VI4lQmOa99tyXgkvenHVnF5CPjIAyaC4LVfahAMTePe06Bu4L9SAHD3226qNIEfSsFokxovh5od3bscJ2S8Cm67pBq1LFo7l2cDD4ciBNSytc8sVa64DXoCkJW5mLRxyq9J8dGpCEQxuNNyF4DC2rZhgpvzoNSUSUev0/6deFlpL8WpX+fhX jenkins@incloud-ci.com
+
 singlenode_vhost_name: singlenode.incloud-ci.com
 project_config_repo: git://github.com/lielongxingkong/project-config
 #serveradmin:
