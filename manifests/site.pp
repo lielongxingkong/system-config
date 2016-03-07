@@ -92,3 +92,27 @@ node 'singlenode.incloud-ci.com' {
   }
 }
 
+#
+# A sample puppet node configuration that installs and configures a server
+# that hosts log files that are viewable in a browser.
+# Note that using swift is optional and the defaults provided disable its
+# usage.
+
+node 'logserver.incloud-ci.com' {
+  # If the fqdn is not resolvable, use its ip address
+  class { 'openstack_project::server':
+    sysadmins                 => hiera('sysadmins', []),
+    puppetmaster_server       => 'puppetmaster.incloud-ci.com',
+  }
+
+  class { '::openstackci::logserver':
+    domain                  => hiera('domain'),
+    jenkins_ssh_key         => hiera('jenkins_ssh_rsa_pubkey_contents'),
+    swift_authurl           => hiera('swift_authurl', ''),
+    swift_user              => hiera('swift_user', ''),
+    swift_key               => hiera('swift_key', ''),
+    swift_tenant_name       => hiera('swift_tenant_name', ''),
+    swift_region_name       => hiera('swift_region_name', ''),
+    swift_default_container => hiera('swift_default_container', ''),
+  }
+}

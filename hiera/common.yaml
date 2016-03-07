@@ -129,7 +129,7 @@ gerrit_server: review.incloud-ci.com
 gerrit_user: zuul
 git_email: zuul@incloud-ci.com
 git_name: InCloud-CI Zuul
-log_server: logs.incloud-ci.com
+log_server: logserver.incloud-ci.com
 #smtp_host:
 #smtp_default_from:
 #smtp_default_to:
@@ -147,3 +147,12 @@ mysql_nodepool_password: secret_mysql_nodepool_password
 #nodepool_git_source_repo: https://git.openstack.org/openstack-infra/nodepool
 gitlab_root_passwd: 88888888
 gitlab_gerrit_passwd: 88888888
+
+domain: logserver.incloud-ci.com
+#jenkins_ssh_public_key:  your-jenkins-public-key-no-whitespace
+#swift_authurl:
+#swift_user:
+#swift_key:
+#swift_tenant_name:
+#swift_region_name:
+#swift_default_container:
