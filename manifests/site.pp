@@ -30,6 +30,8 @@ node 'review.incloud-ci.com' {
     ssh_replication_rsa_pubkey_contents => hiera('gerrit_ssh_rsa_pubkey_contents'),
     ssh_zuul_rsa_pubkey_contents        => hiera('zuul_ssh_rsa_pubkey_contents'),
     ssh_jenkins_rsa_pubkey_contents     => hiera('jenkins_ssh_rsa_pubkey_contents'),
+    openidssourl                        => hiera('openidssourl'),
+    logouturl                           => hiera('logouturl'),
 
     gitlab_root_passwd      => hiera('gitlab_root_passwd'),
     gitlab_gerrit_passwd    => hiera('gitlab_gerrit_passwd'),

@@ -175,6 +175,8 @@ mysql_nodepool_password: secret_mysql_nodepool_password
 #jenkins_credentials_id:
 #nodepool_revision: master
 #nodepool_git_source_repo: https://git.openstack.org/openstack-infra/nodepool
+openidssourl: http://crowd.incloud-ci.com:8095/openidserver/op
+logouturl: http://crowd.incloud-ci.com:8095/openidserver/logoff.action
 gitlab_root_passwd: 88888888
 gitlab_gerrit_passwd: 88888888
 
